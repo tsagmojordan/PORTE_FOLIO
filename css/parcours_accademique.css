@@ -1,0 +1,14 @@
+.article{
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: large;
+    position: relative;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+   
+
+}
+#contenair{
+    background: black;
+}

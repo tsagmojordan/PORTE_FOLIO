@@ -1,0 +1,55 @@
+em{
+    background-color: rgb(218, 218, 78);
+}
+
+p{
+    color: beige;
+}
+img{
+    height: 220.8px;
+    width: 220.8px;
+    border-radius: 100%;
+    /* border-top-left-radius: 50%; */
+}
+.profil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    
+}
+
+.description{
+    width: 80%;
+
+}
+.description > p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    display: block;
+    max-width: 200px;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.presentation{
+    padding-top: 15px;
+    padding-left: 20px;
+   
+}
+.block{
+    display: flex;
+    flex-direction: row;
+}
+.description > h3 > em {
+    background-color: inherit;
+}
+.description > h3 > em > a{
+    color:rgb(218, 218, 78);
+}
+hr{
+    width: 30px;
+    margin-left: 0%;
+    color: azure;
+}
